@@ -1,1 +1,1 @@
-# McCormickGit.github.io
+# schoolportfolio
