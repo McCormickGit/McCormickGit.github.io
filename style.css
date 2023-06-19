@@ -1,4 +1,45 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Center align the text */
+body {
+  text-align: center;
 }
+
+/* Set a maximum width for the container */
+.container {
+  width: 33.33%; /* Adjust the percentage based on your desired width */
+  margin: 0 auto;
+  text-align: left; /* Align the content within the container to the left */
+}
+
+/* Add a background color and change the font color */
+body {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Add a border and padding to the headings */
+h1, h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+/* Change the font color and font family of paragraphs */
+p {
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+/* Add a background color and padding to the ordered list */
+ol {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+/* Change the font size and font color of list items */
+li {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Add a border and margin to the images */
+img {
+  border
