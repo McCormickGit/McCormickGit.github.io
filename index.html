@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<>
 
 <head>
   <meta charset="utf-8">
@@ -8,7 +8,7 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<p>
 <h1 id="jarred-mccormick-eportfolio"><strong><em>Jarred McCormick
 Eportfolio:</em></strong></h1>
 <p>This is my final for the Southern New Hampshire University CS-499
@@ -73,13 +73,75 @@ stakeholders. The inclusion of the binary search tree and the quick sort
 algorithms show my understanding and implementation of them. Finally, by
 building and designing an interface for a locally stored database shows
 my understanding and design of database theory.</p>
-<h1 id="where-we-started"><strong><em>Where We
-Started</em></strong>:</h1>
+
+<h1 id="Code Review">2. Code Review:</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1 id="Software Design"><strong><em> 3. Software Design </em></strong>:</h1>
 <p>The project that this is based on is from my first year as a student
-in the Computer Scicnet program. It was a terminal application that
+in the Computer Science program. It was a terminal application that
 allowed the user to filter movies based of off their title. It can be
 found in the main.py file. It’s output and running environmment looked
-like this: <img src="old%20application.png" alt="old application" /></p>
-</body>
+like this: 
 
+<p></p><img src="images/Oldapp.png" alt="old application" /></p>
+
+<p>When looking at the layout of my final project when compared to my starting artifact
+  it can be seen that I broke things down in to more manageable pieces, this has two 
+  purposes.  First, it allowed me to build code that is inline with best coding practices.
+  This code along with being both modular and reusable allows another developer to come
+  after me and understand what the codes functions are because of the clear commenting.
+  Part of pythonic development is to build reusable, clean, and concise code.  Second,
+  the code that I developed allows the user to pick the implementation of the application.
+  With a few changes the code can be migrated to use a cloud service.
+</p>
+<p>The reason I picked the layout that I have for this project is because I wanted to showcase
+  my understanding of application design.  Modular code makes troubleshooting much easier, and
+  gives developers flexablity within the design process to add and remove portions of code without
+  fear of breaking the whole code base.  I could have broken the code down even more, but in keeping
+  with the design philosophy of python I kept things simple and straight to the point.
+</p>
+
+<p></p><img src="images/structure.png" alt="old structure" /></p>
+
+<p>
+  By following the pythonic naming conventions and layout I have made this application easy to understand,
+  modify, and to replicate.  This is how I was able to develop and show the use of computer scicene skills
+  within a collaborative environemnt that allows a wide range of users to benefit from the applicaiton.
+</p>
+
+<h1 id="Algorithms and Data Structures">4. Algorithms and Data Structures:</h1>
+<p>Building on the theme of understanding and showcasing my growth throught this program
+  I have modified my original dictionary application to utlize data structures and algorithms
+  for the search functions.  I struggled with both understanding and implementing the quick sort
+  and the binary search tree when I first encountered them.  By folding them sucessfully into this 
+  project I have shown my mastery of implementation and understanding.  I picked these two algorithms
+  not only because they are both have their own strenghts and weaknesses.  I am partial to the binary search tree 
+  and it's implementation, it is enabled by default, because of how hard I had to work to learn it.
+  Quick sort was also hard for me to learn, but I learned it faster after putting in time learning the
+  binary search tree.  These algorithms have different time complexitites.  Quick sort is commonly used 
+  when sorting large datasets and has a time complexity of O(n log n).  This would be ideal if the need
+  to scale this project to a larger number of users.  While the binary search tree is more efficent when it 
+  comes to searching and maintaining already sorted data, and has a time complexity of O(log n).
+
+
+<p></p><img src="images/app face.png" alt="app face" /></p>
+<p>I have incorporated these algorithms within my project by providing a drop down where the user
+  can pick the way their data is sorted.  The applicaiton will then return the amount of time it
+  took to return the information, showing real-time the difference between the two algorithms.
+</p>
+
+<h1 id="Databases">5. Databases:</h1>
+<p>
+  When it came to learning databases I struggled a lot.  Mostly with the testing and troubleshooting portions
+  of the course.  I again desided to fold my first failure into this portion of the assignment by building a 
+  locally stored database.  Included within the file structure of the application there are a number of scripts.
+  The first script that I would call to your attention is the create_databases.py.  This script allows the user
+  to create the database that the application will use to store to users notes.  For testing I also created two 
+  additional scripts test_add_db_contents.py and delete_db_contents.py.  These scripts work together to load information
+  into the database for testing and allow for user to empty the database whenever they are done.  Finally, I created a script 
+  that allows the user to convert a note or a range of notes into JSON files.  This will allow the user to transfer
+  their notes to another database platform if they desired.  
+</p>
+</body>
 </html>
